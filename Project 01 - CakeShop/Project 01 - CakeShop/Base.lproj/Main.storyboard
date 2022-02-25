@@ -49,7 +49,7 @@
                                 <connections>
                                     <outlet property="productImage" destination="HNg-J9-oMA" id="3Zv-8A-n0M"/>
                                     <outlet property="productName" destination="dRQ-7g-Nwb" id="CT7-K9-t2i"/>
-                                    <segue destination="gB5-aO-aHN" kind="presentation" identifier="productDetailVC" modalPresentationStyle="automatic" id="shx-I3-uhO"/>
+                                    <segue destination="gB5-aO-aHN" kind="presentation" identifier="productDetail" modalPresentationStyle="automatic" id="shx-I3-uhO"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
