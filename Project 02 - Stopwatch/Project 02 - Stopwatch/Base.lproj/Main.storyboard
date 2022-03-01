@@ -62,33 +62,33 @@
                                             <rect key="frame" x="0.0" y="0.0" width="323" height="93"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IW-Ty-jWK">
-                                                    <rect key="frame" x="50" y="36" width="68" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9IW-Ty-jWK">
+                                                    <rect key="frame" x="50" y="36" width="41.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8x-d3-YU8">
-                                                    <rect key="frame" x="241.5" y="36" width="41.5" height="21"/>
+                                                    <rect key="frame" x="185" y="36" width="41.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="255" horizontalCompressionResistancePriority="747" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwa-25-AHN">
-                                                    <rect key="frame" x="168" y="36" width="13.5" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="   " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwa-25-AHN">
+                                                    <rect key="frame" x="141.5" y="36" width="13.5" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="fwa-25-AHN" firstAttribute="leading" secondItem="9IW-Ty-jWK" secondAttribute="trailing" constant="50" id="0Xx-Fn-ooL"/>
+                                                <constraint firstItem="fwa-25-AHN" firstAttribute="leading" secondItem="9IW-Ty-jWK" secondAttribute="trailing" priority="250" constant="50" id="0Xx-Fn-ooL"/>
                                                 <constraint firstItem="9IW-Ty-jWK" firstAttribute="centerY" secondItem="QfO-1w-02P" secondAttribute="centerY" id="82C-SB-G3h"/>
                                                 <constraint firstItem="9IW-Ty-jWK" firstAttribute="leading" secondItem="QfO-1w-02P" secondAttribute="leadingMargin" constant="30" id="Hmy-3s-jeM"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="z8x-d3-YU8" secondAttribute="trailing" constant="20" id="Ra4-Pl-kh7"/>
+                                                <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="z8x-d3-YU8" secondAttribute="trailing" constant="10" id="Ra4-Pl-kh7"/>
                                                 <constraint firstItem="z8x-d3-YU8" firstAttribute="centerY" secondItem="QfO-1w-02P" secondAttribute="centerY" id="aJg-eM-2Bg"/>
                                                 <constraint firstItem="fwa-25-AHN" firstAttribute="centerY" secondItem="QfO-1w-02P" secondAttribute="centerY" id="heh-EI-dbq"/>
-                                                <constraint firstItem="z8x-d3-YU8" firstAttribute="leading" relation="lessThanOrEqual" secondItem="fwa-25-AHN" secondAttribute="trailing" constant="60" id="is8-A5-MmH"/>
+                                                <constraint firstItem="z8x-d3-YU8" firstAttribute="leading" secondItem="fwa-25-AHN" secondAttribute="trailing" constant="30" id="is8-A5-MmH"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
