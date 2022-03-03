@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         profileTableView.backgroundColor = UIColor(white: 245/255, alpha: 1)
         profileTableView.register(UINib(nibName: "ProfileCell", bundle: nil), forCellReuseIdentifier: "ProfileCell")
         profileTableView.register(UINib(nibName: "MenuCell", bundle: nil), forCellReuseIdentifier: "MenuCell")
-        
         makeData()
     }
     
@@ -96,7 +95,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.rightImageView.image = UIImage(systemName: profileModel[indexPath.section][indexPath.row].rightImageName ?? "")
         cell.rightImageView.tintColor = .systemGray3
         if (indexPath.section == 1 && indexPath.row == 5) || indexPath.section == 2 {
-            cell.middleTitle.textColor = UIColor(hex: 0x228aae)
+            cell.middleTitle.textColor = UIColor(rgb: 0x3e3be3)
         }
         if indexPath.section == 4 {
             cell.middleTitle.textAlignment = .center
@@ -120,11 +119,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
 }
 
 public extension UIColor {
-  convenience init(r: Int, g: Int, b: Int, a: CGFloat) {
-    self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: a)
+  convenience init(red: Int, green: Int, blue: Int, alpha: CGFloat) {
+    self.init(red: CGFloat(red) / 255, green: CGFloat(green) / 255, blue: CGFloat(blue) / 255, alpha: alpha)
   }
   
-  convenience init(hex: Int) {
-    self.init(r: (hex & 0xff0000) >> 16, g: (hex & 0xff00) >> 8, b: (hex & 0xff), a: 1)
+  convenience init(rgb: Int) {
+    self.init(red: (rgb & 0xFF) >> 16, green: (rgb & 0xFF) >> 8, blue: (rgb & 0xFF), alpha: 1)
   }
 }
