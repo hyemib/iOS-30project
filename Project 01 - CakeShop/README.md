@@ -11,5 +11,5 @@
 
 
 
-[학습정리](https://github.com/Hhyemm/TIL/blob/main/22-02/220223.md)
+[학습정리](https://github.com/Hhyemm/TIL/blob/main/22-1/220223.md)
 
