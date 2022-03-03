@@ -63,6 +63,12 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        if section == 2 {
+            return "FAVORITES"
+        }
+        return nil
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return profileModel[section].count
@@ -82,15 +88,43 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             cell.rightImageView.tintColor = .systemGray3
             return cell
         }
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as! MenuCell
         cell.leftImageView.image = UIImage(systemName: profileModel[indexPath.section][indexPath.row].leftImageName ?? "")
         cell.leftImageView.tintColor = .black
         cell.middleTitle.text = profileModel[indexPath.section][indexPath.row].menuTitle
         cell.rightImageView.image = UIImage(systemName: profileModel[indexPath.section][indexPath.row].rightImageName ?? "")
         cell.rightImageView.tintColor = .systemGray3
+        if (indexPath.section == 1 && indexPath.row == 5) || indexPath.section == 2 {
+            cell.middleTitle.textColor = UIColor(hex: 0x228aae)
+        }
+        if indexPath.section == 4 {
+            cell.middleTitle.textAlignment = .center
+            cell.middleTitle.textColor = .systemRed
+        }
         
         return cell
     }
     
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        if section == 2 {
+            return 36
+        }
+        return 0
+    }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+}
+
+public extension UIColor {
+  convenience init(r: Int, g: Int, b: Int, a: CGFloat) {
+    self.init(red: CGFloat(r) / 255, green: CGFloat(g) / 255, blue: CGFloat(b) / 255, alpha: a)
+  }
+  
+  convenience init(hex: Int) {
+    self.init(r: (hex & 0xff0000) >> 16, g: (hex & 0xff00) >> 8, b: (hex & 0xff), a: 1)
+  }
 }
