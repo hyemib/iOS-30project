@@ -1,9 +1,3 @@
-//
-//  AppDelegate.swift
-//  TodoApp
-//
-//  Created by hyemi on 2022/03/07.
-//
 
 import UIKit
 import CoreData

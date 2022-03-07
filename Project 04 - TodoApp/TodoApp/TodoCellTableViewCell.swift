@@ -1,14 +1,12 @@
-//
-//  TodoCellTableViewCell.swift
-//  TodoApp
-//
-//  Created by hyemi on 2022/03/07.
-//
 
 import UIKit
 
 class TodoCellTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var priorityView: UIView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
