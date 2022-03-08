@@ -15,9 +15,11 @@ class TodoDetailViewController: UIViewController {
     @IBOutlet weak var normalButton: UIButton!
     @IBOutlet weak var highButton: UIButton!
     @IBOutlet weak var saveButton: UIButton!
-    @IBOutlet weak var cancelButton: UIButton!
+    @IBOutlet weak var deleteButton: UIButton!
+    
     
     var priority: PriorityLevel?
+    var date: Date?
     var selectedTodoList: TodoList?
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
@@ -32,8 +34,10 @@ class TodoDetailViewController: UIViewController {
             priority = PriorityLevel(rawValue: hasData.priorityLevel)
             makePriorityButtonDesign()
             
+            deleteButton.isHidden = false
             saveButton.setTitle("Update", for: .normal)
         } else {
+            deleteButton.isHidden = true
             saveButton.setTitle("Save", for: .normal)
         }
     }
@@ -76,6 +80,11 @@ class TodoDetailViewController: UIViewController {
         }
     }
     
+    @IBAction func setDatePicker(_ sender: UIDatePicker) {
+        date = sender.date
+    }
+    
+    
     @IBAction func saveTodo(_ sender: UIButton) {
         if selectedTodoList != nil {
             updateTodo()
@@ -90,8 +99,9 @@ class TodoDetailViewController: UIViewController {
         guard let entityDescription = NSEntityDescription.entity(forEntityName: "TodoList", in: context) else { return }
         guard let object = NSManagedObject(entity: entityDescription, insertInto: context) as? TodoList else { return }
         
-        object.title = titleTextField.text
         object.uuid = UUID()
+        object.title = titleTextField.text
+        object.date = date
         object.priorityLevel = priority?.rawValue ?? PriorityLevel.level1.rawValue
     }
     
@@ -112,6 +122,7 @@ class TodoDetailViewController: UIViewController {
             let loadData = try context.fetch(fetchRequesst)
             loadData.first?.title = titleTextField.text
             loadData.first?.priorityLevel = self.priority?.rawValue ?? PriorityLevel.level1.rawValue
+            loadData.first?.date = date
             
             let appDelegate = (UIApplication.shared.delegate as! AppDelegate)
             appDelegate.saveContext()

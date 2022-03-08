@@ -77,9 +77,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
         if let hasDate = todoList[indexPath.row].date {
             let formatter = DateFormatter()
-            formatter.dateFormat = "MM/DD/YYYY"
+            formatter.dateFormat = "yyyy-MM-dd HH:mm"
             let dateString = formatter.string(from: hasDate)
-            
             cell.dateLabel.text = dateString
         } else {
             cell.dateLabel.text = ""
