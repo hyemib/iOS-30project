@@ -3,12 +3,12 @@ import Foundation
 
 class ArtistDataModel {
     var artistImage: String
-    var artistName: String
+    var artistTitle: String
     var artistInformation: String
     
-    init(artistImage: String, artistName: String, artistInformation: String) {
+    init(artistImage: String, artistTitle: String, artistInformation: String) {
         self.artistImage = artistImage
-        self.artistName = artistName
+        self.artistTitle = artistTitle
         self.artistInformation = artistInformation
     }
 }

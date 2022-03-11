@@ -5,7 +5,7 @@ import UIKit
 class ArtistTableViewCell: UITableViewCell {
 
     @IBOutlet weak var artistImage: UIImageView!
-    @IBOutlet weak var artistName: UILabel!
+    @IBOutlet weak var artistTitle: UILabel!
     @IBOutlet weak var artistLabel: UITextView!
     
     override func awakeFromNib() {
