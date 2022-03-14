@@ -15,10 +15,10 @@
 		925A52B827DB6BC9009268B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A52B627DB6BC9009268B3 /* LaunchScreen.storyboard */; };
 		925A52C027DB6F78009268B3 /* ArtistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52BF27DB6F78009268B3 /* ArtistTableViewCell.swift */; };
 		925A52C627DB8593009268B3 /* PaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52C527DB8593009268B3 /* PaintingViewController.swift */; };
-		925A52C827DB85AB009268B3 /* PaintingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925A52C727DB85AB009268B3 /* PaintingViewController.storyboard */; };
 		925A52CA27DB98A2009268B3 /* PaintingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52C927DB98A2009268B3 /* PaintingTableViewCell.swift */; };
-		925A52CE27DB9B80009268B3 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52CD27DB9B80009268B3 /* Artist.swift */; };
-		925A52D027DB9C1D009268B3 /* Painting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52CF27DB9C1D009268B3 /* Painting.swift */; };
+		925A52CE27DB9B80009268B3 /* ArtistModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A52CD27DB9B80009268B3 /* ArtistModel.swift */; };
+		925A530427DF31AC009268B3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 925A530327DF31AC009268B3 /* data.json */; };
+		925A530827DF7097009268B3 /* PaintingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A530727DF7097009268B3 /* PaintingModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,10 +32,10 @@
 		925A52B927DB6BC9009268B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		925A52BF27DB6F78009268B3 /* ArtistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistTableViewCell.swift; sourceTree = "<group>"; };
 		925A52C527DB8593009268B3 /* PaintingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingViewController.swift; sourceTree = "<group>"; };
-		925A52C727DB85AB009268B3 /* PaintingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PaintingViewController.storyboard; sourceTree = "<group>"; };
 		925A52C927DB98A2009268B3 /* PaintingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingTableViewCell.swift; sourceTree = "<group>"; };
-		925A52CD27DB9B80009268B3 /* Artist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
-		925A52CF27DB9C1D009268B3 /* Painting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Painting.swift; sourceTree = "<group>"; };
+		925A52CD27DB9B80009268B3 /* ArtistModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtistModel.swift; sourceTree = "<group>"; };
+		925A530327DF31AC009268B3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		925A530727DF7097009268B3 /* PaintingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintingModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,15 +68,15 @@
 		925A52AA27DB6BC9009268B3 /* ArtGallery */ = {
 			isa = PBXGroup;
 			children = (
-				925A52CF27DB9C1D009268B3 /* Painting.swift */,
 				925A52BF27DB6F78009268B3 /* ArtistTableViewCell.swift */,
 				925A52AB27DB6BC9009268B3 /* AppDelegate.swift */,
 				925A52AD27DB6BC9009268B3 /* SceneDelegate.swift */,
 				925A52AF27DB6BC9009268B3 /* ViewController.swift */,
-				925A52CD27DB9B80009268B3 /* Artist.swift */,
+				925A530727DF7097009268B3 /* PaintingModel.swift */,
+				925A530327DF31AC009268B3 /* data.json */,
+				925A52CD27DB9B80009268B3 /* ArtistModel.swift */,
 				925A52C927DB98A2009268B3 /* PaintingTableViewCell.swift */,
 				925A52C527DB8593009268B3 /* PaintingViewController.swift */,
-				925A52C727DB85AB009268B3 /* PaintingViewController.storyboard */,
 				925A52B427DB6BC9009268B3 /* Assets.xcassets */,
 				925A52B127DB6BC9009268B3 /* Main.storyboard */,
 				925A52B627DB6BC9009268B3 /* LaunchScreen.storyboard */,
@@ -146,7 +146,7 @@
 				925A52B827DB6BC9009268B3 /* LaunchScreen.storyboard in Resources */,
 				925A52B527DB6BC9009268B3 /* Assets.xcassets in Resources */,
 				925A52B327DB6BC9009268B3 /* Main.storyboard in Resources */,
-				925A52C827DB85AB009268B3 /* PaintingViewController.storyboard in Resources */,
+				925A530427DF31AC009268B3 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,13 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				925A52B027DB6BC9009268B3 /* ViewController.swift in Sources */,
+				925A530827DF7097009268B3 /* PaintingModel.swift in Sources */,
 				925A52CA27DB98A2009268B3 /* PaintingTableViewCell.swift in Sources */,
 				925A52C627DB8593009268B3 /* PaintingViewController.swift in Sources */,
-				925A52D027DB9C1D009268B3 /* Painting.swift in Sources */,
 				925A52AC27DB6BC9009268B3 /* AppDelegate.swift in Sources */,
 				925A52C027DB6F78009268B3 /* ArtistTableViewCell.swift in Sources */,
 				925A52AE27DB6BC9009268B3 /* SceneDelegate.swift in Sources */,
-				925A52CE27DB9B80009268B3 /* Artist.swift in Sources */,
+				925A52CE27DB9B80009268B3 /* ArtistModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

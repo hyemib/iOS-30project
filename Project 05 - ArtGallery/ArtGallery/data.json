@@ -1,0 +1,100 @@
+{
+    "data" : [
+        {
+        "image" : "gogh",
+        "title" : "Vincent van Gogh",
+        "info" : "Vincent Willem van Gogh 30 March 1853 – 29 July 1890) was a Dutch Post-Impressionist painter who posthumously became one of the most famous and influential figures in Western art history.",
+        "painting" : [
+            {"paintingImage" : "sunflowers",
+            "paintingTitle" : "Sunflowers",
+            "paintingInfo" : "Sunflowers is the title of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions. About eight months later van Gogh hoped to welcome and to impress Gauguin again with Sunflowers, now part of the painted Décoration for the Yellow House that he prepared for the guestroom of his home in Arles, where Gauguin was supposed to stay. After Gauguin's departure, van Gogh imagined the two major versions as wings of the Berceuse Triptych, and finally he included them in his Les XX in Bruxelles exhibit."},
+            {"paintingImage" : "cafeterrace",
+            "paintingTitle" : "Café Terrace at Night",
+            "paintingInfo" : "Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir). Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.[1] Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure (to the left, not pictured) and, beyond this structure, the tower of a former church which is now Musée Lapidaire. Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop."},
+            {"paintingImage" : "starrynight",
+            "paintingTitle" : "The Starry Night",
+            "paintingInfo" : "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art."},
+            {"paintingImage" : "nightcafe",
+            "paintingTitle" : "The Night Café",
+            "paintingInfo" : "The Night Café is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too."}
+            ]
+        },
+        {
+        "image" : "gauguin",
+        "title" : "Paul Gauguin",
+        "info" : "Eugène Henri Paul Gauguin (7 June 1848 – 8 May 1903) was a French Post-Impressionist artist. Unappreciated until after his death, Gauguin is now recognized for his experimental use of color and Synthetist style that were distinct from Impressionism.",
+        "painting" : [
+            {"paintingImage" : "navenave",
+            "paintingTitle" : "Nave Nave Mahana",
+            "paintingInfo" : "Nave Nave Mahana (Tahitian: Delicious day) was made in 1896 by Paul Gauguin in Tahiti. It is kept in the Museum of Fine Arts of Lyon. The painting became part of the collections of the Lyon Museum in 1913."},
+            {"paintingImage" : "maria",
+            "paintingTitle" : "Ia Orana Maria ",
+            "paintingInfo" : "Ia Orana Maria (Ave Maria) is an 1891 oil on canvas painting by Paul Gauguin, now in the Metropolitan Museum of Art. It is one of the first works in his Tahitian period and shows two Polynesians (centre) greeting the Madonna and Child."},
+            {"paintingImage" : "wegoing",
+            "paintingTitle" : "Where Do We Come From? What Are We? Where Are We Going?",
+            "paintingInfo" : "Where Do We Come From? What Are We? Where Are We Going?  is a painting by French artist Paul Gauguin. The painting was created in Tahiti, and is in the Museum of Fine Arts in Boston, Massachusetts. Viewed as a masterpiece by Gauguin, the painting is considered \"a philosophical work comparable to the themes of the Gospels\". The painting is notable for its enigmatic subject and atmosphere. Some scholars have attributed these qualities to personal conflicts that Gauguin experienced while creating this artwork. It is an accentuation of Gauguin's trailblazing Post-Impressionistic style."},
+            {"paintingImage" : "tahiti",
+            "paintingTitle" : "Tahitian Women on the Beach",
+            "paintingInfo" : "Tahitian Women on the Beach is an 1891 painting by Paul Gauguin. The painting depicts two women on the Pacific island of Tahiti on the beach. The painting is currently in the collection of the Musée d'Orsay, located in Paris, France. In 1892 Gauguin painted a similar painting Parau api, (Two Women of Tahiti) which is in the collection of the Galerie Neue Meister in Dresden. In Tahitian, \"parau\" means word and \"api\" means new. Thus \"parau api\" means news. A common greeting is \"Eaha te parau api\", or what's new?"}
+            ]
+        },
+        {
+        "image" : "monet",
+        "title" : "Claude Monet",
+        "info" : "Oscar-Claude Monet (14 November 1840 – 5 December 1926) was a French painter and founder of impressionist painting who is seen as a key precursor to modernism, especially in his attempts to paint nature as he perceived it.",
+        "painting" : [
+            {"paintingImage" : "sunflowers",
+            "paintingTitle" : "Sunflowers",
+            "paintingInfo" : "Sunflowers (original title, in French: Tournesols) is the title of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions. About eight months later van Gogh hoped to welcome and to impress Gauguin again with Sunflowers, now part of the painted Décoration for the Yellow House that he prepared for the guestroom of his home in Arles, where Gauguin was supposed to stay. After Gauguin's departure, van Gogh imagined the two major versions as wings of the Berceuse Triptych, and finally he included them in his Les XX in Bruxelles exhibit."},
+            {"paintingImage" : "cafeterrace",
+            "paintingTitle" : "Café Terrace at Night",
+            "paintingInfo" : "Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir). Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.[1] Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure (to the left, not pictured) and, beyond this structure, the tower of a former church which is now Musée Lapidaire. Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop."},
+            {"paintingImage" : "starrynight",
+            "paintingTitle" : "The Starry Night",
+            "paintingInfo" : "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art."},
+            {"paintingImage" : "nightcafe",
+            "paintingTitle" : "The Night Café",
+            "paintingInfo" : "The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too."}
+            ]
+        },
+        {
+            "image" : "cezanne",
+            "title" : "Paul Cézanne",
+            "info" : "Paul Cézanne (19 January 1839 – 22 October 1906) was a French artist and Post-Impressionist painter whose work laid the foundations of the transition from the 19th-century conception of artistic endeavour to a new and radically different world of art in the 20th century.",
+            "painting" : [
+                {"paintingImage" : "sunflowers",
+                "paintingTitle" : "Sunflowers",
+                "paintingInfo" : "Sunflowers (original title, in French: Tournesols) is the title of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions. About eight months later van Gogh hoped to welcome and to impress Gauguin again with Sunflowers, now part of the painted Décoration for the Yellow House that he prepared for the guestroom of his home in Arles, where Gauguin was supposed to stay. After Gauguin's departure, van Gogh imagined the two major versions as wings of the Berceuse Triptych, and finally he included them in his Les XX in Bruxelles exhibit."},
+                {"paintingImage" : "cafeterrace",
+                "paintingTitle" : "Café Terrace at Night",
+                "paintingInfo" : "Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir). Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.[1] Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure (to the left, not pictured) and, beyond this structure, the tower of a former church which is now Musée Lapidaire. Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop."},
+                {"paintingImage" : "starrynight",
+                "paintingTitle" : "The Starry Night",
+                "paintingInfo" : "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art."},
+                {"paintingImage" : "nightcafe",
+                "paintingTitle" : "The Night Café",
+                "paintingInfo" : "The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too."}
+            ]
+        },
+        {"image" : "rembrandt",
+        "title" : "Rembrandt Harmenszoon van Rijn",
+        "info" : "Rembrandt Harmenszoon van Rijn (15 July 1606 – 4 October 1669), usually simply known as Rembrandt, was a Dutch Golden Age painter, printmaker and draughtsman. An innovative and prolific master in three media, he is generally considered one of the greatest visual artists in the history of art and the most important in Dutch art history.",
+        "painting" : [
+            {"paintingImage" : "sunflowers",
+            "paintingTitle" : "Sunflowers",
+            "paintingInfo" : "Sunflowers (original title, in French: Tournesols) is the title of two series of still life paintings by the Dutch painter Vincent van Gogh. The first series, executed in Paris in 1887, depicts the flowers lying on the ground, while the second set, made a year later in Arles, shows a bouquet of sunflowers in a vase. In the artist's mind both sets were linked by the name of his friend Paul Gauguin, who acquired two of the Paris versions. About eight months later van Gogh hoped to welcome and to impress Gauguin again with Sunflowers, now part of the painted Décoration for the Yellow House that he prepared for the guestroom of his home in Arles, where Gauguin was supposed to stay. After Gauguin's departure, van Gogh imagined the two major versions as wings of the Berceuse Triptych, and finally he included them in his Les XX in Bruxelles exhibit."},
+            {"paintingImage" : "cafeterrace",
+            "paintingTitle" : "Café Terrace at Night",
+            "paintingInfo" : "Café Terrace at Night is an 1888 oil painting by the Dutch artist Vincent van Gogh. It is also known as The Cafe Terrace on the Place du Forum, and, when first exhibited in 1891, was entitled Coffeehouse, in the evening (Café, le soir). Van Gogh painted Café Terrace at Night in Arles, France, in mid-September 1888. The painting is not signed, but described and mentioned by the artist in three letters.[1] Visitors to the site can stand at the north eastern corner of the Place du Forum, where the artist set up his easel. The site was refurbished in 1990 and 1991 to replicate van Gogh's painting. He looked south towards the artificially lit terrace of the popular coffee house, as well as into the enforced darkness of the rue du Palais which led up to a building structure (to the left, not pictured) and, beyond this structure, the tower of a former church which is now Musée Lapidaire. Towards the right, Van Gogh indicated a lighted shop and some branches of the trees surrounding the place, but he omitted the remainders of the Roman monuments just beside this little shop."},
+            {"paintingImage" : "starrynight",
+            "paintingTitle" : "The Starry Night",
+            "paintingInfo" : "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh. Painted in June 1889, it depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.[1][2][3] It has been in the permanent collection of the Museum of Modern Art in New York City since 1941, acquired through the Lillie P. Bliss Bequest. Widely regarded as Van Gogh's magnum opus,[4][5] The Starry Night is one of the most recognized paintings in Western art."
+            },
+            {"paintingImage" : "nightcafe",
+            "paintingTitle" : "The Night Café",
+            "paintingInfo" : "The Night Café (French: Le Café de nuit) is an oil painting created by Dutch artist Vincent van Gogh in September 1888 in Arles.[1] Its title is inscribed lower right beneath the signature. The painting is owned by Yale University and is currently held at the Yale University Art Gallery in New Haven, Connecticut. The interior depicted is the Café de la Gare, 30 Place Lamartine, run by Joseph-Michel Ginoux and his wife Marie, who in November 1888 posed for Van Gogh's and Gauguin's Arlésienne; a bit later, Joseph Ginoux evidently posed for both artists, too."}
+            ]
+        }
+        
+    ]
+}
